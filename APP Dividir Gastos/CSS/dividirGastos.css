@@ -1,0 +1,18 @@
+form{
+   background-color: aliceblue;
+   text-align: center;
+   padding: 10px 500px 200px 500px;
+   margin: 20px;
+}
+
+#fondo{
+    text-align: center;
+    margin: 30px 450px 0px 450px;
+    padding: 50px;
+    background-color: #126bc5;
+    color: aliceblue;
+}
+button{
+    margin: 10px;
+}
+
