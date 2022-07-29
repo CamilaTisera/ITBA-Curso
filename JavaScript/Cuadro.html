@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Cuadro</title>
+  </head>
+  <body>
+    <h1>Animales de la Granja</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Animal</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Dueño</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Perro</th>
+          <td id="nomb1"></td>
+          <td id="dueño1"></td>
+        </tr>
+        <tr>
+          <th scope="row">Gato</th>
+          <td id="nomb2"></td>
+          <td id="dueño2"></td>
+        </tr>
+      </tbody>
+    </table>
+       <input id="perros" type="number" placeholder="Ingrese cantidad de perros">
+       <input id="gatos" type="number" placeholder="Ingrese cantidad de gatos">
+       <input id="gallinas" type="number" placeholder="Ingrese cantidad de gallinas">
+       <button onclick="calculadoraAnimal()">Sumar</button>
+      <div id="resultado"></div>
+
+
+    <script src="Cuadro.js"></script>
+  </body>
+</html>
